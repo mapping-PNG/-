@@ -31,3 +31,4 @@ for k in range(1, 9):
     # 根据投票得到预测结果
     prediction = 1 if count_label_one > count_label_zero else 0
     print(f"When k == {k}, the prediction is: {prediction}")
+
